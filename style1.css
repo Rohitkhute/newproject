@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+}
+.wrapper{
+  background: url(bg.jpg) no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.navbar {
+  position: fixed;
+  height: 80px;
+  width: 100%;
+  background: rgba(0,0,0,0.4);
+}
+nav .logo{
+  font-size: 25px;
+  color : white;
+  font-weight: bold;
+  line-height: 80px;
+  padding-left: 100px;
+}
+.navbar ul{
+  float: right;
+  margin-right: 20px;
+}
+.navbar ul li{
+  list-style: none;
+  font-family: Arial, Helvetica, sans-serif;
+  display: inline-block;
+  margin :0 8px;
+  line-height: 80px;
+  color: white;
+  
+}
+.navbar ul li a{
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  padding: 6px 13px;
+  font-family:  'Roboto', sans-serif;
+}
+.navbar ul li a.active,
+.navbar ul li a:hover{
+  background: red;
+  border-radius: 2px;
+}
+.wrapper .center{
+  position: absolute;
+  top: 40%;
+  left: 55%;
+  transform: translate(-50%,-50%);
+  font-family: sans-serif;
+  user-select: none;
+}
+.center h1{
+  color: white;
+  font-size: 30px ;
+  width: 900px;
+  margin-top: 10px;
+  text-align: center;
+}
+.center h2{
+  color: white;
+  font-size: 30px ;
+  width: 900px;
+  margin-top: 10px;
+  text-align: center;
+}
+.center .buttons{
+  margin : 15px 330px;
+}
+.buttons button{
+  height: 30px;
+  width: 100px;
+  font-size: 15px;
+  color:  white;
+  background: red;
+  border: 1px solid #cc0000;
+  outline: none;
+  cursor: pointer;
+  border-radius: 25px;
+  transition: .5s;
+
+}
+.buttons .btn{
+  margin-left: 25px; 
+}
+.buttons .button:hover{
+  background: #cc0000;
+}
+ .buttons .button a.active,
+ .buttons .button a:hover{
+  background: white;
+  border-radius: 2px;
+}
